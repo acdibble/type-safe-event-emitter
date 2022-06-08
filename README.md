@@ -78,4 +78,5 @@ All expected errors are reported, such as incorrect arity:
 <img width="760" alt="image" src="https://user-images.githubusercontent.com/21286068/172696137-73df1407-bddc-468d-97d4-ac46d7cabba7.png">
 
 And incorrect types being emitted:
-<img width="884" alt="image" src="https://user-images.githubusercontent.com/21286068/172696273-1176322c-b68f-4156-9cc3-0519f5d8d9f1.png">
+<img width="885" alt="image" src="https://user-images.githubusercontent.com/21286068/172696735-08713c45-ef63-4f7f-bbf2-d7c8bd787054.png">
+
