@@ -6,7 +6,7 @@
   "main": "./dist/TypeSafeEventEmitter.js",
   "exports": "./dist/TypeSafeEventEmitter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "rm -rf dist && npx tsc"
   },
   "author": "",
   "license": "ISC",
