@@ -1,0 +1,19 @@
+{
+  "name": "type-safe-event-emitter",
+  "version": "0.1.0",
+  "description": "A zero-overhead, type-safe event emitter",
+  "type": "module",
+  "main": "./dist/TypeSafeEventEmitter.js",
+  "exports": "./dist/TypeSafeEventEmitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@types/node": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
