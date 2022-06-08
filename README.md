@@ -73,6 +73,9 @@ An incorrect listener cannot be used:
 Emitting events provides the same intellisense as listening:
 <img width="601" alt="image" src="https://user-images.githubusercontent.com/21286068/172695850-f8eb84c6-f86a-4d45-9c62-ce67e20c924a.png">
 
+When emitting events, all arguments are given with their proper names and types:
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/21286068/172698006-460f7fbc-32af-47f6-9e7b-74adad189118.png">
+
 All expected errors are reported, such as incorrect arity:
 <img width="551" alt="image" src="https://user-images.githubusercontent.com/21286068/172695981-69a612b6-de41-4f9e-b046-2e67d10d00f6.png">
 <img width="760" alt="image" src="https://user-images.githubusercontent.com/21286068/172696137-73df1407-bddc-468d-97d4-ac46d7cabba7.png">
