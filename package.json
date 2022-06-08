@@ -1,5 +1,5 @@
 {
-  "name": "type-safe-event-emitter",
+  "name": "@acdibble/emitter",
   "version": "0.1.0",
   "description": "A zero-overhead, type-safe event emitter",
   "type": "module",

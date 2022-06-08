@@ -1,4 +1,5 @@
-# type-safe-event-emitter
+# @acdibble/emitter
+
 A zero-overhead, type-safe event emitter
 
 ## Description
@@ -8,6 +9,7 @@ This package doesn't contain any logic. It simply reexports Node.js's native
 usage.
 
 The following functions have been made type-safe:
+
 ```
 addListener
 emit
@@ -39,13 +41,14 @@ and feed the type information into the `emit` and `on` calls.
 ## Examples
 
 With the following setup:
+
 ```typescript
-import TypeSafeEventEmitter from 'type-safe-event-emitter';
+import TypeSafeEventEmitter from "@acdibble/emitter";
 
 interface MessageMap {
   connect: () => void;
   disconnect: (code: number, reason?: string) => void;
-  message: (content: string) => void
+  message: (content: string) => void;
 }
 
 const emitter = new TypeSafeEventEmitter<MessageMap>();
@@ -82,4 +85,3 @@ All expected errors are reported, such as incorrect arity:
 
 And incorrect types being emitted:
 <img width="885" alt="image" src="https://user-images.githubusercontent.com/21286068/172696735-08713c45-ef63-4f7f-bbf2-d7c8bd787054.png">
-
